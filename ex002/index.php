@@ -12,6 +12,34 @@
 
   <p>
     <?php 
+        $divisaoInteira = intdiv(20, 9);
+        echo "A resposta é $divisaoInteira.";       
+  ?>
+  </p>
+
+  <p>
+    <?php 
+        $baseConvertida = base_convert(20, 10, 2); // Converte o número 20 da base decimal para a base binária
+        echo "A resposta é $baseConvertida.";       
+  ?>
+  </p>
+
+  <p>
+    <?php 
+        $valorAbsoluto = abs(-2000);
+        echo "A resposta é $valorAbsoluto.";
+  ?>
+  </p>
+
+  <p>
+    <?php 
+        $res = 50 / (2 + 3) ** 2;
+        echo "O resultado é $res.";    
+  ?>
+  </p>
+
+  <p>
+    <?php 
   $canal = "Curso em Vídeo";
   $ano = date('Y');
   echo <<< TESTE
